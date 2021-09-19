@@ -55,7 +55,7 @@ let questions = [
     },
 
     {
-        question: "Quali nazioni sono separate dal 48° Parallelo?",
+        question: "Quali nazioni sono separate dal 38° Parallelo?",
         choice1: "Tagikistan e Kazakhistan ",
         choice2: "Mongolia e Cina",
         choice3: "Corea del Nord e Corea del Sud",
@@ -83,7 +83,7 @@ let questions = [
     },
 
     {
-      question: "Quale di questi magistrati non faceva parte della Task Force creata per l'occasione?",
+      question: "Quale di questi magistrati non faceva parte della Task Force creata per Tangentopoli?",
       choice1: "Antonio Ingroia",
       choice2: "Antonio Di Pietro",
       choice3: "Ilda Boccassini",
