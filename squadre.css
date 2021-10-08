@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    background-color: rgb(29, 26, 26);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+    }
+
+    .end-form-container {
+        font-size: 5rem;
+        color:limegreen;
+        padding-left: 300px;
+        padding-top:200px
+        }
+          
+        .end-form-container2 {
+            font-size: 5rem;
+            color:limegreen;
+            padding-left: 1300px;
+            padding-top: 150px;
+        }
+
+h1 {
+    color:white;
+    font-family: 'Nova Square', cursive;
+    font-size: 5rem;
+    padding-left: 770px;
+    padding-top: 20px; 
+}
+
+h4  {
+    color:limegreen;
+    font-family: 'Nova Square', cursive;
+    font-size: 4rem;
+    padding-left: 700px;
+    padding-top: 20px; 
+}
+
+    #Versus{
+        color: white;
+        font-family: 'Nova Square', cursive;
+        font-size: 12rem;
+        position:absolute;
+         height: 51px;
+        left: 865px;
+        top: 465px;
+         width: 262px;
+         font-weight: bold;
+    }
+    
+    #bandiera1 {
+        position:absolute;
+        left: 294px;
+        bottom: 255px;
+    }
+
+    #bandiera2 {
+        position:absolute;
+        right: 273px;
+        bottom: 350px;
+    }
+
+    .startbutton {
+        position: absolute;
+        left:800px;
+        bottom: 150px;
+        font-family: 'Nova Square', cursive;
+        font-size: 4rem;
+        color:white;
+        background: limegreen;
+    }
