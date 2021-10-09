@@ -151,6 +151,10 @@ choices.forEach(choice => {
 
         selectedChoice.parentElement.classList.add(classToApply)
 
+        if(currentQuestion.answer != selectedAnswer) {
+             console.log('hello world')
+        }
+
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
