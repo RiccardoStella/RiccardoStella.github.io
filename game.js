@@ -1,8 +1,13 @@
+
+// Import delle risorse 
+
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+
+// Variabili di Base 
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -10,7 +15,12 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
+// Domande Quiz 
+
 let questions = [
+
+     // Domanda 1 
+
     {
         question: 'Quale di queste nazioni non esiste più oggi?',
         choice1: 'Isole Kayman',
@@ -19,6 +29,9 @@ let questions = [
         choice4: 'Prussia',
         answer: 4,
     },
+
+    // Domanda 2 
+
     {
         question:
             "Nella bandiera di quale nazione è raffigurato il tempio di Angkor Wath?",
@@ -28,6 +41,9 @@ let questions = [
         choice4: "Nepal",
         answer: 2,
     },
+
+    // Domanda 3 
+
     {
         question: "Quanti Americani credono che il latte al cioccolato venga prodotto da mucche marroni?",
         choice1: "20%",
@@ -36,14 +52,19 @@ let questions = [
         choice4: "33%",
         answer: 3,
     },
+
+       // Domanda 4 
+
     {
         question: "Chi tra questi sovrani appartiene alla dinastia Tudor?",
         choice1: "Giacomo I",
         choice2: "Cristiano IV",
         choice3: "Elisabetta I",
         choice4: "Filippo II",
-        answer: 1,
+        answer: 3,
     },
+
+      // Domanda 5 
 
     {
         question: "Chi scrisse 'Phänomenologie des Geistes'?",
@@ -54,6 +75,8 @@ let questions = [
         answer: 1,
     },
 
+         // Domanda 6 
+
     {
         question: "Quali nazioni sono separate dal 38° Parallelo?",
         choice1: "Tagikistan e Kazakhistan ",
@@ -62,6 +85,8 @@ let questions = [
         choice4: "Austira e Svizzera",
         answer: 3, 
     },
+
+           // Domanda 7 
 
     {
         question: "Chi formulò le nuove regole per la stesura di poesia e prosa della letteratura italiana nel 1516?",
@@ -73,6 +98,8 @@ let questions = [
     
     },
 
+          // Domanda 8 
+
     {
         question: "Quale di questi primi ministri italiani fece cambiare in segreto lo schieramento italiano durante la I Guerra Mondiale?",
         choice1: "Giovanni Giolitti",
@@ -82,6 +109,8 @@ let questions = [
         answer: 4,
     },
 
+          // Domanda 9 
+
     {
       question: "Quale di questi magistrati non faceva parte della Task Force creata per Tangentopoli?",
       choice1: "Antonio Ingroia",
@@ -90,6 +119,8 @@ let questions = [
       choice4: "Francesco Greco",
       answer: 1,
     }, 
+
+       // Domanda 10 
 
     {
         question: "Chi è l'autore del romanzo 'I Miserabili'?",
@@ -101,9 +132,12 @@ let questions = [
     }
 ]
 
+//  Variabili della Progess Bar 
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 10
+
+// Funzione di Gioco Principale 
 
 startGame = () => {
     questionCounter = 0
@@ -111,6 +145,8 @@ startGame = () => {
     availableQuestions = [...questions]
     getNewQuestion()
 }
+
+  // Nuova Domanda dopo aver dato la risposta alla precedente
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
@@ -123,9 +159,13 @@ getNewQuestion = () => {
     progressText.innerText = `Domanda ${questionCounter} / ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
     
+// Domande in oridne casuale
+
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
+
+    // Rileva risposta scelta
 
     choices.forEach(choice => {
         const number = choice.dataset['number']
@@ -137,23 +177,28 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
+// Selezionare una Domanda Random 
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
 
+    // Determina la risposta data dal player 
         acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-        
-
         selectedChoice.parentElement.classList.add(classToApply)
 
+        // Redirecting del Player ==>  Se la risposta è sbagliata porti il player sulla pagina del video di errore 
+
         if(currentQuestion.answer != selectedAnswer) {
-             console.log('hello world')
+             location.href = '/index.html'
         }
+
+        // Se la risposta è giusta ikl player passa alla domanda successiva 
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
@@ -163,10 +208,14 @@ choices.forEach(choice => {
     })
 })
 
+//  Aumentare il punteggio se la risposta è corretta
+
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
+// Avvio del gioco
 
 startGame()
 
