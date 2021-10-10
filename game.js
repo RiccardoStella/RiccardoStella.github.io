@@ -195,7 +195,7 @@ choices.forEach(choice => {
         // Redirecting del Player ==>  Se la risposta è sbagliata porti il player sulla pagina del video di errore 
 
         if(currentQuestion.answer != selectedAnswer) {
-             location.href = '/index.html'
+             location.href = '/schermataerrore.html'
         }
 
         // Se la risposta è giusta ikl player passa alla domanda successiva 
