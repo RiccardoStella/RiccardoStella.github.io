@@ -58,16 +58,19 @@ h4  {
         position:absolute;
         left: 294px;
         bottom: 255px;
+        display: flex;
     }
 
     #bandiera2 {
-        position:absolute;
+        position:fixed;
         right: 273px;
         bottom: 350px;
+        display: flex;
     }
 
     .startbutton {
-        position: absolute;
+        
+        position:absolute;
         font-size: 2.4rem;
         padding: 2rem 0;
         width: 30rem;

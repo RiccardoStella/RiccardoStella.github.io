@@ -13,6 +13,7 @@ let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
+let punteggio = 0
 let availableQuestions = []
 
 // Domande Quiz 
@@ -190,12 +191,23 @@ choices.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
+        if(classToApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+
         selectedChoice.parentElement.classList.add(classToApply)
 
         // Redirecting del Player ==>  Se la risposta è sbagliata porti il player sulla pagina del video di errore 
 
         if(currentQuestion.answer != selectedAnswer) {
              location.href = '/schermataerrore.html'
+        
+        }
+
+    // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
+        if( questionCounter == 10) {
+           location.href = '/index.html' 
+          
         }
 
         // Se la risposta è giusta ikl player passa alla domanda successiva 
@@ -214,6 +226,8 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
+
 
 // Avvio del gioco
 
