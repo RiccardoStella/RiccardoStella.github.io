@@ -133,6 +133,8 @@ let questions = [
     }
 ]
 
+//  Funzioni di Gioco
+
 //  Variabili della Progess Bar 
 
 const SCORE_POINTS = 100
@@ -200,13 +202,13 @@ choices.forEach(choice => {
         // Redirecting del Player ==>  Se la risposta è sbagliata porti il player sulla pagina del video di errore 
 
         if(currentQuestion.answer != selectedAnswer) {
-             location.href = '/schermataerrore.html'
+            location.href="schermataerrore.html"
         
         }
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 10) {
-           location.href = '/index.html' 
+           lo
           
         }
 
