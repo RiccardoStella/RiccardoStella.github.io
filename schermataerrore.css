@@ -12,48 +12,56 @@
     font-family: 'Nova Square', cursive;
 }
 
-#err {
-   position: absolute;
-   left: 635px; 
-   font-size: 9rem;
-   color: red;
-   top: 150px;
-   font-weight: bold;
+.video1 {
+display: flex;
+width: 600px;
+height: 600px;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+
+margin: auto;
+
 }
 
-
-#titolo {
+.err {
+    color: red;
+    display: flex;
     position: absolute;
-    color: white;
-    font-size: 4.5rem;
-    top: 55px;
-    left: 815px;
+    top: 25em;
+    bottom: 0;
+    left: 150em;
+    right: 0;
+    margin: auto;
+ }
+
+ .btnerrore {
+    position:absolute;
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 4px;
+    margin-top: 725px;
+    margin-left: 875px;
 }
 
-.btn {
-    position: absolute;
-        font-size: 2.4rem;
-        padding: 2rem 0;
-        width: 30rem;
-        text-align: center;
-        margin-bottom: 1rem;
-        text-decoration: none;
-        color: rgb(28, 26, 26);
-        background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-        border-radius: 4px;
-        left: 805px;
-        bottom: 55px;
-}
-
-.btn:hover {
+.btnerrore:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
     transition: transform 150ms;
     transform: scale(1.03);
 }
 
-.video1 {
-    position: absolute;
-    top: 300px;
-    left: 575px;
-}
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+
+     }

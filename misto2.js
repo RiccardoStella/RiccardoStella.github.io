@@ -1,6 +1,3 @@
-
-// Import delle risorse 
-
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -20,50 +17,64 @@ let availableQuestions = []
 
 let questions = [
 
-     // Domanda 1 
+    // Domanda 5 
 
-    {
-        question: 'Quale di queste nazioni non esiste più oggi?',
-        choice1: 'Isole Kayman',
-        choice2: 'Kiribati',
-        choice3: 'Saint Lucia',
-        choice4: 'Prussia',
-        answer: 4,
-    },
+  {
+      question: "Chi scrisse 'Phänomenologie des Geistes'?",
+      choice1: "Hegel",
+      choice2: "Kant",
+      choice3: "Schopenhaurer",
+      choice4: "Cartesio",
+      answer: 1,
+  },
 
-    // Domanda 2 
+       // Domanda 6 
 
-    {
-        question:
-            "Nella bandiera di quale nazione è raffigurato il tempio di Angkor Wath?",
-        choice1: "Laos",
-        choice2: "Cambogia",
-        choice3: "Singapore",
-        choice4: "Nepal",
-        answer: 2,
-    },
+  {
+      question: "Quali nazioni sono separate dal 38° Parallelo?",
+      choice1: "Tagikistan e Kazakhistan ",
+      choice2: "Mongolia e Cina",
+      choice3: "Corea del Nord e Corea del Sud",
+      choice4: "Austira e Svizzera",
+      answer: 3, 
+  },
 
-    // Domanda 3 
+         // Domanda 7 
 
-    {
-        question: "Quanti Americani credono che il latte al cioccolato venga prodotto da mucche marroni?",
-        choice1: "20%",
-        choice2: "18%",
-        choice3: "7%",
-        choice4: "33%",
-        answer: 3,
-    },
+  {
+      question: "Chi formulò le nuove regole per la stesura di poesia e prosa della letteratura italiana nel 1516?",
+      choice1: "Giuseppe Parini",
+      choice2: "Pietro Bembo",
+      choice3: "Teofilo Folengo",
+      choice4: "Gaspara Stampa",
+      answer: 2, 
+  
+  },
 
-       // Domanda 4 
+        // Domanda 8 
 
-    {
-        question: "Chi tra questi sovrani appartiene alla dinastia Tudor?",
-        choice1: "Giacomo I",
-        choice2: "Cristiano IV",
-        choice3: "Elisabetta I",
-        choice4: "Filippo II",
-        answer: 3,
-    }
+  {
+      question: "Quale di questi primi ministri italiani fece cambiare in segreto lo schieramento italiano durante la I Guerra Mondiale?",
+      choice1: "Giovanni Giolitti",
+      choice2: "Francesco Crispi",
+      choice3: "Giulio Andreotti",
+      choice4: "Sidney Sonnino",
+      answer: 4,
+  },
+
+        // Domanda 9 
+
+  {
+    question: "Quale di questi magistrati non faceva parte della Task Force creata per Tangentopoli?",
+    choice1: "Antonio Ingroia",
+    choice2: "Antonio Di Pietro",
+    choice3: "Ilda Boccassini",
+    choice4: "Francesco Greco",
+    answer: 1,
+  }
+
+
+
 ]
 
 //  Funzioni di Gioco
@@ -140,8 +151,8 @@ choices.forEach(choice => {
         }
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
-        if( questionCounter == 4) {
-           location.href= "misto2.html"
+        if( questionCounter == 4 ) {
+           location.href= ""
           
         }
 
