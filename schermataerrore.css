@@ -16,7 +16,7 @@
 display: flex;
 width: 600px;
 height: 600px;
-position: absolute;
+position: fixed;
 top: 0;
 bottom: 0;
 left: 0;
@@ -32,7 +32,7 @@ margin: auto;
     position: absolute;
     top: 9em;
     bottom: 0;
-    left: 120em;
+    left: 150em;
     right: 0;
     margin: auto;
  }
