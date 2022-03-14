@@ -146,13 +146,13 @@ choices.forEach(choice => {
         // Redirecting del Player ==>  Se la risposta è sbagliata porti il player sulla pagina del video di errore 
 
         if(currentQuestion.answer != selectedAnswer) {
-            location.href="schermataerrore2.html"
+            location.href="schermataerrore3.html"
         
         }
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4 ) {
-           location.href= "misto3.html"
+           location.href= "misto4.html"
           
         }
 
