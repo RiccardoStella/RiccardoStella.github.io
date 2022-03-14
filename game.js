@@ -23,45 +23,44 @@ let questions = [
      // Domanda 1 
 
     {
-        question: 'Quale di queste nazioni non esiste più oggi?',
-        choice1: 'Isole Kayman',
-        choice2: 'Kiribati',
-        choice3: 'Saint Lucia',
-        choice4: 'Prussia',
+        question: 'Europa verdankt seinen Namen',
+        choice1: 'einem griechischen Mädchen, dessen Geschichte in der kleinasiatischen Mythologie erzählt wird',
+        choice2: 'einem griechischen Mädchen, das so schön war, dass es von Zeus entführt wurde',
+        choice3: 'einem kleinasiatischen Mädchen, welches einige Söhne mit einem angeblichen "Jüngling" zeugte',
+        choice4: 'einem schönen kleinasiatischen Mädchen, welches Zeus in der Form eines attraktiven Schwans bereitwillig folgte',
         answer: 4,
     },
 
     // Domanda 2 
 
     {
-        question:
-            "Nella bandiera di quale nazione è raffigurato il tempio di Angkor Wath?",
-        choice1: "Laos",
-        choice2: "Cambogia",
-        choice3: "Singapore",
-        choice4: "Nepal",
+        question: "Die Werte, die zum Selbstverständnis der Europäer gehören, wurden unter anderem entwickelt:",
+        choice1: "In der Zeit des römischen Reiches, der protestantischen Reformation und der Erleuchtung;",
+        choice2: "von Völkern, die vor Christus lebten;",
+        choice3: "von Literaten (wie z.B. Mark Twain, Thomas Eliot) sowie Theologen (wie z.B. Thomas von Aquin und Luther) und Philosophen;",
+        choice4: "vor allem während der Aufklärung, die die Grundlagen zu den Ideen von Demokratie, Justiz und Toleranz legte.",
         answer: 2,
     },
 
     // Domanda 3 
 
     {
-        question: "Quanti Americani credono che il latte al cioccolato venga prodotto da mucche marroni?",
-        choice1: "20%",
-        choice2: "18%",
-        choice3: "7%",
-        choice4: "33%",
+        question: "Auf dem langen Weg zu Europa",
+        choice1: "legten die Römischen Verträgen, die 1951 unterzeichnet wurden, die Grundlage für die Europäische Gemeinschaft für Kohle und Stahl (EGKS) und die heutige EU;",
+        choice2: "geht der Maastricht-Vertrag, der in 1993 in Kraft trat, der Einführung des Euro voraus und folgt der Abschaffung von Personen- und Warenkontrolle an Binnengrenzen;",
+        choice3: "bot die Verabschiedung einer europäischen Verfassung die Bedingungen für spätere Reformen, die den freien Personen- und Warenverkehr in Europa betrafen;",
+        choice4: "hat es weniger als 10 Jahren gebraucht, um die Entscheidung zu verwirklichen, die nationale Währung mit Euro- Banknoten und Münzen in 12 Staaten zu ersetzen.",
         answer: 3,
     },
 
        // Domanda 4 
 
     {
-        question: "Chi tra questi sovrani appartiene alla dinastia Tudor?",
-        choice1: "Giacomo I",
-        choice2: "Cristiano IV",
-        choice3: "Elisabetta I",
-        choice4: "Filippo II",
+        question: "Die Völkerwanderung ist ein historischer Prozess,",
+        choice1: "der nach dem Sieg von Arminius gegen Varus in der Varusschlacht begann;",
+        choice2: "der nach einigen Jahrzehnten durch den Tod Kaiser Hadrians (138 n. Chr.) ausgelòst wurde.",
+        choice3: "der den germanischen Völksstämmen ermöglichte, dauerhaft den Hafen von Aquileia in der Adria zu besetzen;",
+        choice4: "dessen Hauptereignis die Besetzung des Hafens von Aquileia an der Adria war.",
         answer: 3,
     }
 ]

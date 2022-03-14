@@ -20,33 +20,33 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Chi scrisse 'Phänomenologie des Geistes'?",
-      choice1: "Hegel",
-      choice2: "Kant",
-      choice3: "Schopenhaurer",
-      choice4: "Cartesio",
+      question: "Die Hansa war ein Bund…",
+      choice1: "…deutscher Hafenstädte, die sich zusammengeschlossen hatten, um ihre wirtschaftlichen Interessen zu fördern;",
+      choice2: "dem viele Hafenstädte angehörten, wie z.B. Hamburg und Caen, und gemeinsame Geschäftsinteressen hatten;",
+      choice3: "der im Frühmittelalter gegründet und erst im Spätmittelalter aufgelöst wurde;",
+      choice4: "der aus geschäftlichen Gründen gegründet wurde und sich aus Kriegsgründen auflöste.",
       answer: 1,
   },
 
        // Domanda 6 
 
   {
-      question: "Quali nazioni sono separate dal 38° Parallelo?",
-      choice1: "Tagikistan e Kazakhistan ",
-      choice2: "Mongolia e Cina",
-      choice3: "Corea del Nord e Corea del Sud",
-      choice4: "Austira e Svizzera",
+      question: "Man kann wohl sagen, dass…",
+      choice1: "mit der protestantischen Reformation die deutsche Welt vom Mittelalter definitiv Abschied nahm; ",
+      choice2: "Luther während einer Übergangszeit zwischen Katholizismus und Protestantismus lebte;",
+      choice3: "Luther dachte, dass gute Taten eine notwendige aber nicht ausreichende Bedingung der Seligkeit waren;",
+      choice4: "gleich nach der Veröffentlichung der 95 Thesen, der Papst Luther zum Widerruf aufforderte.",
       answer: 3, 
   },
 
          // Domanda 7 
 
   {
-      question: "Chi formulò le nuove regole per la stesura di poesia e prosa della letteratura italiana nel 1516?",
-      choice1: "Giuseppe Parini",
-      choice2: "Pietro Bembo",
-      choice3: "Teofilo Folengo",
-      choice4: "Gaspara Stampa",
+      question: "",
+      choice1: "Die Berliner Mauer wurde von der DDR-Regierung bald nach dem Ungarn-Aufstand errichtet, um die Flucht nach Westen zu verhindern;",
+      choice2: "die Berliner Mauer wurde von der DDR-Regierung einige Jahre nach dem Ungarn-Aufstand gebaut, weil die Zahl der Flüchtlinge aus der DDR viel höher als die aus der BDR war;",
+      choice3: "die Berliner Mauer wurde von der DDR-Regierung errichtet, um sich besser vor möglichen Nato-Angriffe zu schützen;",
+      choice4: "ein USA Präsident stattete Berlin einen historischen Besuch ab, um die Spannung zwischen den beiden deutschen Staaten abzubauen, trotzdem beschloss die DDR-Regierung, die Berliner Mauer zu errichten.",
       answer: 2, 
   
   },
