@@ -140,7 +140,7 @@ choices.forEach(choice => {
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4) {
-           location.href= "misto2.html"
+           location.href= "schermataerrore.html"
           
         }
 
