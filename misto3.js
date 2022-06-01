@@ -20,11 +20,11 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Chi scrisse 'Phänomenologie des Geistes'?",
-      choice1: "Hegel",
-      choice2: "Kant",
-      choice3: "Schopenhaurer",
-      choice4: "Cartesio",
+      question: "Statt der zuvor üblichen Übersetzungsmethode des „Wort für Wort“ wählte Luther die Methode des „Sinn für    Sinn“, um…",
+      choice1: "den biblischen Text besser zu “verdeutschen”;",
+      choice2: "die Leute zu überzeugen, dass die Reformation recht hatte;",
+      choice3: "",
+      choice4: "",
       answer: 1,
   },
 
@@ -39,37 +39,28 @@ let questions = [
       answer: 3, 
   },
 
-         // Domanda 7 
+     
 
-  {
-      question: "Chi formulò le nuove regole per la stesura di poesia e prosa della letteratura italiana nel 1516?",
-      choice1: "Giuseppe Parini",
-      choice2: "Pietro Bembo",
-      choice3: "Teofilo Folengo",
-      choice4: "Gaspara Stampa",
-      answer: 2, 
   
-  },
-
         // Domanda 8 
 
   {
-      question: "Quale di questi primi ministri italiani fece cambiare in segreto lo schieramento italiano durante la I Guerra Mondiale?",
-      choice1: "Giovanni Giolitti",
-      choice2: "Francesco Crispi",
-      choice3: "Giulio Andreotti",
-      choice4: "Sidney Sonnino",
-      answer: 4,
+      question: "Wenn Erasmus sagt, dass „Ich bin ganz und gar nicht der Meinung derer, die nicht wollen, dass die göttlichen Buchstaben in eine Volkssprache übersetzt werden“, will er damit sagen, dass…",
+      choice1: "es keine schlechte Idee ist, die Bibel ins Deutsche zu übersetzen;",
+      choice2: "es nicht zwingend erforderlich ist, die Bibel in eine Volkssprache zu übersetzen;",
+      choice3: "es möglich ist, die Bibel nicht nur in Latein zu übersetzen;",
+      choice4: "es möglich, aber nicht ratsam ist, die Bibel ins Deutsche zu übersetzen.",
+      answer: 2,
   },
 
         // Domanda 9 
 
   {
-    question: "Quale di questi magistrati non faceva parte della Task Force creata per Tangentopoli?",
-    choice1: "Antonio Ingroia",
-    choice2: "Antonio Di Pietro",
-    choice3: "Ilda Boccassini",
-    choice4: "Francesco Greco",
+    question: "Der gesuchte Autor ist entweder Rainer M. Rilke, oder Thomas Mann, oder Franz Kafka oder Bertold Brecht. Man weiß, dass der gesuchte Autor 1955 gestorben ist, dass er ein Dramaturg, ein Regisseur war und ein engagierter Dichter war. Darüber hinaus, weiß man dass:",
+    choice1: "Rilke sehr berühmte Dramatische Werke geschrieben hatte, darunter „Waisenkinder“, und dann auch nur Dichtungen und Prosa; Wer ist dieser Autor?",
+    choice2: "Mann gerne „vornehm über den Dingen“ stehen wollte;Mann gerne „vornehm über den Dingen“ stehen wollte;",
+    choice3: "Brecht im Jahr 1923 sein erste Regiearbeit, Leben Eduards des Zweiten von England, fertigstellte;",
+    choice4: "Kafka sich in seiner Jugendzeit dem Sozialismus zuwandte, aber dass in seiner Reifezeit seine Werke von seiner persönlichen Erfahrung geprägt waren.",
     answer: 1,
   }
 
@@ -152,7 +143,7 @@ choices.forEach(choice => {
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4 ) {
-           location.href= "misto4.html"
+           location.href= "cambiosquadra2.html"
           
         }
 
