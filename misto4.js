@@ -20,33 +20,33 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Chi scrisse 'Phänomenologie des Geistes'?",
+      question: "Wer schrieb „Phänomenologie des Geistes“?",
       choice1: "Hegel",
       choice2: "Kant",
       choice3: "Schopenhaurer",
-      choice4: "Cartesio",
+      choice4: "Jonas",
       answer: 1,
   },
 
        // Domanda 6 
 
   {
-      question: "Quali nazioni sono separate dal 38° Parallelo?",
-      choice1: "Tagikistan e Kazakhistan ",
-      choice2: "Mongolia e Cina",
-      choice3: "Corea del Nord e Corea del Sud",
-      choice4: "Austira e Svizzera",
-      answer: 3, 
+      question: "„Vergessen die Herren denn ganz, dass X ein Liederdichter ist, neben dem nur noch Goethe genannt werden darf?“ – Otto von Bismarck: um 1890. Wer ist X?",
+      choice1: "X ist Hermann Hesse, der Meisterwerke wie z.B. Narziß und Goldmund geschrieben hat;",
+      choice2: "X ist Gertrud von le Fort; die auch die Dichterin der Transzendenz genannt wurde;",
+      choice3: "X ist Heinrich Heine, der Dichter, Schriftsteller und auch Journalisten war;",
+      choice4: "X ist Ernst Jünger, Autor eines Kriegstagebuches das zu einem Welterfolg wurde.",
+      answer: 4, 
   },
 
          // Domanda 7 
 
   {
-      question: "Chi formulò le nuove regole per la stesura di poesia e prosa della letteratura italiana nel 1516?",
-      choice1: "Giuseppe Parini",
-      choice2: "Pietro Bembo",
-      choice3: "Teofilo Folengo",
-      choice4: "Gaspara Stampa",
+      question: "In dem von Bertold Brecht verfassten Drama „Leben des Galilei“,",
+      choice1: "wird der berühmte italienische Mathematiker von seinen Schülern und Zöglingen beschimpft;",
+      choice2: "behauptet Galilei, dass sein Widerruf vor der Inquisition eine schmerzhafte Entscheidung war, die es ihm jedoch ermöglichte, seine Forschungen fortzusetzen;",
+      choice3: "beschuldigt in einer der letzten Szenen Galileis Schüler Andrea Sarti den Lehrer der Feigheit, weil er die Wissenschaft verraten hätte;",
+      choice4: "bleibt Galilei von der Richtigkeit seiner Entscheidung seine Lehre zu wiederrufen überzeugt, obwohl er auch von all seinen Schülern verlassen wird.",
       answer: 2, 
   
   },
@@ -54,26 +54,15 @@ let questions = [
         // Domanda 8 
 
   {
-      question: "Quale di questi primi ministri italiani fece cambiare in segreto lo schieramento italiano durante la I Guerra Mondiale?",
-      choice1: "Giovanni Giolitti",
-      choice2: "Francesco Crispi",
-      choice3: "Giulio Andreotti",
-      choice4: "Sidney Sonnino",
-      answer: 4,
+      question: "„Wahr ist’s. Diese Buchstaben stehen nicht drinnen. Aber wo man’s will klar verdeutschen, so gehöret es hinein.“ Diese Worte wurden gesprochen von…",
+      choice1: "Luther, um seine Übersetzung der Bibel zu rechtfertigen, die das Wort “allein” mit Bezug auf den Glauben einführt, welches nicht im Text steht;",
+      choice2: "Luther, um seine Übersetzung der Bibel zu rechtfertigen, die das Wort „Pastor“ anstelle des Wortes “Papst” benutzt;",
+      choice3: "der katholischen Kirche, die das Wort „Papst“ in ihrer Erklärung der Bibel einführt;",
+      choice4: "der katholischen Kirche, die das Wort „Papst“ in ihrer lateinischen Übersetzung der Bibel einführt.",
+      answer: 3,
   },
 
-        // Domanda 9 
-
-  {
-    question: "Quale di questi magistrati non faceva parte della Task Force creata per Tangentopoli?",
-    choice1: "Antonio Ingroia",
-    choice2: "Antonio Di Pietro",
-    choice3: "Ilda Boccassini",
-    choice4: "Francesco Greco",
-    answer: 1,
-  }
-
-
+  
 
 ]
 

@@ -23,20 +23,20 @@ let questions = [
       question: "Statt der zuvor üblichen Übersetzungsmethode des „Wort für Wort“ wählte Luther die Methode des „Sinn für    Sinn“, um…",
       choice1: "den biblischen Text besser zu “verdeutschen”;",
       choice2: "die Leute zu überzeugen, dass die Reformation recht hatte;",
-      choice3: "",
-      choice4: "",
+      choice3: "zu zeigen, dass die katholische Bibelübersetzung nicht getreu übersetzt worden war;",
+      choice4: "den religiösen Wert des biblischen Textes besser zu erklären.",
       answer: 1,
   },
 
        // Domanda 6 
 
   {
-      question: "Quali nazioni sono separate dal 38° Parallelo?",
-      choice1: "Tagikistan e Kazakhistan ",
-      choice2: "Mongolia e Cina",
-      choice3: "Corea del Nord e Corea del Sud",
-      choice4: "Austira e Svizzera",
-      answer: 3, 
+      question: "Zu den Autoren, die dem Sturm und Drang angehören, kann man die folgenden zählen:",
+      choice1: "Johann Wolfgang Goethe und Friedrich Schiller, der u.a. ein Schauspiel für Liebende schrieb;",
+      choice2: "Johann Georg Hamann (1730–1788), der u.a. die Sokratische Denkwürdigkeiten schrieb, und Christian Schubart;",
+      choice3: "Johann G. Herder, der u.a Lenore schrieb, und Gottfried August Bürger;",
+      choice4: "Johann G. Herder und Jakob Michael Reinhold, der u.a. Prometheus schrieb.",
+      answer: 1, 
   },
 
      

@@ -20,33 +20,33 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Chi scrisse 'Phänomenologie des Geistes'?",
-      choice1: "Hegel",
-      choice2: "Kant",
-      choice3: "Schopenhaurer",
-      choice4: "Cartesio",
+      question: "Finden Sie die richtige Antwort",
+      choice1: "Nietzsche kritisiert die Religion, weil sie die weltliche Werte zugunsten der geistlichen Werte beiseite lässt;",
+      choice2: "Nietzsche kritisiert die Religion, weil sie lässt die weltlichen Werte zugunsten der geistlichen Werte beiseite;",
+      choice3: "Nietzsche kritisiert die Religion, weil sie die weltlichen Werte zugunsten der geistlichen Werte beiseite lässt;",
+      choice4: "Nietzsche kritisiert die Religion, weil sie die weltlichen Werte zugunsten der geistlichen Werte   lässt beiseite.",
       answer: 1,
   },
 
        // Domanda 6 
 
   {
-      question: "Quali nazioni sono separate dal 38° Parallelo?",
-      choice1: "Tagikistan e Kazakhistan ",
-      choice2: "Mongolia e Cina",
-      choice3: "Corea del Nord e Corea del Sud",
-      choice4: "Austira e Svizzera",
+      question: "Gemäß Hegel ist die ganze Realität irrational, wenn auch nur ein Teil der Realität irrational wäre; R",
+      choice1: "laut Hegel, wenn nur ein Teil der Realität wäre irrational, die ganze Realität würde irrational sein; ",
+      choice2: "laut Hegel, wenn nur ein Teil der Realität irrational wäre, die ganze Realität irrational wäre;",
+      choice3: "laut Hegel, wenn nur ein Teil der Realität irrational wäre, würde die ganze Realität irrational sein.",
+      choice4: "Keine der vorherigen Antworten ist richtig",
       answer: 3, 
   },
 
          // Domanda 7 
 
   {
-      question: "Chi formulò le nuove regole per la stesura di poesia e prosa della letteratura italiana nel 1516?",
-      choice1: "Giuseppe Parini",
-      choice2: "Pietro Bembo",
-      choice3: "Teofilo Folengo",
-      choice4: "Gaspara Stampa",
+      question: "Gorgias von Leontinoi gehörte zu einer philosophischen Strömung, d.h. die Sophistische Bewegung, die nach Ansicht vieler Autoren die Philosophie abgeschworen hatte, weil sie nicht mehr nach der Wahrheit suchte; R",
+      choice1: "Gorgias von Leontinoi gehörte an eine philosophische Strömung, d.h. die Sophistische  Bewegung, deren Mitglieder für ihre Dienste gut bezahlt wurden;",
+      choice2: "Gorgias von Leontinoi gehörte an einer philosophischen Bewegung, d.h. der Sophismus, die sich mit der Erziehung der Jünglinge beschäftigte;",
+      choice3: "Gorgias von Leontinoi gehörte an einer philosophischen Bewegung, d.h. der Sophismus, die nicht mehr an den überlieferten Werten glaubte.",
+      choice4: "Keine der vorherigen Antworten ist richtig",
       answer: 2, 
   
   },
@@ -54,26 +54,15 @@ let questions = [
         // Domanda 8 
 
   {
-      question: "Quale di questi primi ministri italiani fece cambiare in segreto lo schieramento italiano durante la I Guerra Mondiale?",
-      choice1: "Giovanni Giolitti",
-      choice2: "Francesco Crispi",
-      choice3: "Giulio Andreotti",
-      choice4: "Sidney Sonnino",
+      question: "Finden Sie die richtige Antwort",
+      choice1: "Heidegger verglich die Rede, die sich nicht um den Sinn des Lebens kümmert, zu dem Gerede;",
+      choice2: "Heidegger verglich die Rede, die sich nicht um den Sinn des Lebens kümmert, mit dem Gerede;",
+      choice3: "Heidegger verglich die Rede, die sich nicht um dem Sinn des Lebens kümmert, mit dem Gerede;",
+      choice4: "Heidegger verglich die Rede, die sich nicht um dem Sinn des Lebens kümmert, zu dem Gerede.",
       answer: 4,
   },
 
-        // Domanda 9 
-
-  {
-    question: "Quale di questi magistrati non faceva parte della Task Force creata per Tangentopoli?",
-    choice1: "Antonio Ingroia",
-    choice2: "Antonio Di Pietro",
-    choice3: "Ilda Boccassini",
-    choice4: "Francesco Greco",
-    answer: 1,
-  }
-
-
+     
 
 ]
 
