@@ -17,6 +17,7 @@ body {
 }
 
 .paragrafo {
+    display: flex;
     text-align: center;
     color: white;
     font-size: 8em;

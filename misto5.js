@@ -135,6 +135,7 @@ choices.forEach(choice => {
         // Redirecting del Player ==>  Se la risposta è sbagliata porti il player sulla pagina del video di errore 
 
         if(currentQuestion.answer != selectedAnswer) {
+            alert("Peccato! La risposta CORRETTA è la numero " + currentQuestion.answer + "!")
             location.href="schermataerrore5.html"
         
         }
