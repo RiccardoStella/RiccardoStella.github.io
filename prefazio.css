@@ -13,6 +13,7 @@ body {
     }
 
 .introduction {
+    display: flex;
     top: 200;
 }
 
@@ -20,6 +21,7 @@ body {
     display: flex;
     text-align: center;
     color: white;
+    top: 200;
     font-size: 8em;
     
 }
