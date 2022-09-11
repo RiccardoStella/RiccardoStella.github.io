@@ -20,7 +20,7 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Finden Sie die richtige Antwort",
+      question: "CENTROCAMPISTI - Finden Sie die richtige Antwort",
       choice1: "Nietzsche kritisiert die Religion, weil sie die weltliche Werte zugunsten der geistlichen Werte beiseite lässt;",
       choice2: "Nietzsche kritisiert die Religion, weil sie lässt die weltlichen Werte zugunsten der geistlichen Werte beiseite;",
       choice3: "Nietzsche kritisiert die Religion, weil sie die weltlichen Werte zugunsten der geistlichen Werte beiseite lässt;",
@@ -31,7 +31,7 @@ let questions = [
        // Domanda 6 
 
   {
-      question: "Gemäß Hegel ist die ganze Realität irrational, wenn auch nur ein Teil der Realität irrational wäre; R",
+      question: "DIFENSORI - Gemäß Hegel ist die ganze Realität irrational, wenn auch nur ein Teil der Realität irrational wäre; R",
       choice1: "laut Hegel, wenn nur ein Teil der Realität wäre irrational, die ganze Realität würde irrational sein; ",
       choice2: "laut Hegel, wenn nur ein Teil der Realität irrational wäre, die ganze Realität irrational wäre;",
       choice3: "laut Hegel, wenn nur ein Teil der Realität irrational wäre, würde die ganze Realität irrational sein.",
@@ -42,7 +42,7 @@ let questions = [
          // Domanda 7 
 
   {
-      question: "Gorgias von Leontinoi gehörte zu einer philosophischen Strömung, d.h. die Sophistische Bewegung, die nach Ansicht vieler Autoren die Philosophie abgeschworen hatte, weil sie nicht mehr nach der Wahrheit suchte; R",
+      question: "ATTACCANTI - Gorgias von Leontinoi gehörte zu einer philosophischen Strömung, d.h. die Sophistische Bewegung, die nach Ansicht vieler Autoren die Philosophie abgeschworen hatte, weil sie nicht mehr nach der Wahrheit suchte; R",
       choice1: "Gorgias von Leontinoi gehörte an eine philosophische Strömung, d.h. die Sophistische  Bewegung, deren Mitglieder für ihre Dienste gut bezahlt wurden;",
       choice2: "Gorgias von Leontinoi gehörte an einer philosophischen Bewegung, d.h. der Sophismus, die sich mit der Erziehung der Jünglinge beschäftigte;",
       choice3: "Gorgias von Leontinoi gehörte an einer philosophischen Bewegung, d.h. der Sophismus, die nicht mehr an den überlieferten Werten glaubte.",
@@ -54,7 +54,7 @@ let questions = [
         // Domanda 8 
 
   {
-      question: "Finden Sie die richtige Antwort",
+      question: "PORTIERE - Finden Sie die richtige Antwort",
       choice1: "Heidegger verglich die Rede, die sich nicht um den Sinn des Lebens kümmert, zu dem Gerede;",
       choice2: "Heidegger verglich die Rede, die sich nicht um den Sinn des Lebens kümmert, mit dem Gerede;",
       choice3: "Heidegger verglich die Rede, die sich nicht um dem Sinn des Lebens kümmert, mit dem Gerede;",
@@ -142,7 +142,7 @@ choices.forEach(choice => {
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4 ) {
-           location.href= "schermatapunti.html"
+           location.href= "cambiosquadra5.html"
           
         }
 

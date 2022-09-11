@@ -20,7 +20,7 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Statt der zuvor üblichen Übersetzungsmethode des „Wort für Wort“ wählte Luther die Methode des „Sinn für    Sinn“, um…",
+      question: "ALI - Statt der zuvor üblichen Übersetzungsmethode des „Wort für Wort“ wählte Luther die Methode des „Sinn für    Sinn“, um…",
       choice1: "den biblischen Text besser zu “verdeutschen”;",
       choice2: "die Leute zu überzeugen, dass die Reformation recht hatte;",
       choice3: "zu zeigen, dass die katholische Bibelübersetzung nicht getreu übersetzt worden war;",
@@ -31,7 +31,7 @@ let questions = [
        // Domanda 6 
 
   {
-      question: "Zu den Autoren, die dem Sturm und Drang angehören, kann man die folgenden zählen:",
+      question: "CENTROCAMPISTI - Zu den Autoren, die dem Sturm und Drang angehören, kann man die folgenden zählen:",
       choice1: "Johann Wolfgang Goethe und Friedrich Schiller, der u.a. ein Schauspiel für Liebende schrieb;",
       choice2: "Johann Georg Hamann (1730–1788), der u.a. die Sokratische Denkwürdigkeiten schrieb, und Christian Schubart;",
       choice3: "Johann G. Herder, der u.a Lenore schrieb, und Gottfried August Bürger;",
@@ -45,7 +45,7 @@ let questions = [
         // Domanda 8 
 
   {
-      question: "Wenn Erasmus sagt, dass „Ich bin ganz und gar nicht der Meinung derer, die nicht wollen, dass die göttlichen Buchstaben in eine Volkssprache übersetzt werden“, will er damit sagen, dass…",
+      question: "ATTACCANTI - Wenn Erasmus sagt, dass „Ich bin ganz und gar nicht der Meinung derer, die nicht wollen, dass die göttlichen Buchstaben in eine Volkssprache übersetzt werden“, will er damit sagen, dass…",
       choice1: "es keine schlechte Idee ist, die Bibel ins Deutsche zu übersetzen;",
       choice2: "es nicht zwingend erforderlich ist, die Bibel in eine Volkssprache zu übersetzen;",
       choice3: "es möglich ist, die Bibel nicht nur in Latein zu übersetzen;",
@@ -56,7 +56,7 @@ let questions = [
         // Domanda 9 
 
   {
-    question: "Der gesuchte Autor ist entweder Rainer M. Rilke, oder Thomas Mann, oder Franz Kafka oder Bertold Brecht. Man weiß, dass der gesuchte Autor 1955 gestorben ist, dass er ein Dramaturg, ein Regisseur war und ein engagierter Dichter war. Darüber hinaus, weiß man dass:",
+    question: "PORTIERE - Der gesuchte Autor ist entweder Rainer M. Rilke, oder Thomas Mann, oder Franz Kafka oder Bertold Brecht. Man weiß, dass der gesuchte Autor 1955 gestorben ist, dass er ein Dramaturg, ein Regisseur war und ein engagierter Dichter war. Darüber hinaus, weiß man dass:",
     choice1: "Rilke sehr berühmte Dramatische Werke geschrieben hatte, darunter „Waisenkinder“, und dann auch nur Dichtungen und Prosa; Wer ist dieser Autor?",
     choice2: "Mann gerne „vornehm über den Dingen“ stehen wollte;Mann gerne „vornehm über den Dingen“ stehen wollte;",
     choice3: "Brecht im Jahr 1923 sein erste Regiearbeit, Leben Eduards des Zweiten von England, fertigstellte;",

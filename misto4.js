@@ -20,7 +20,7 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Wer schrieb „Phänomenologie des Geistes“?",
+      question: "DIFENSORI - Wer schrieb „Phänomenologie des Geistes“?",
       choice1: "Hegel",
       choice2: "Kant",
       choice3: "Schopenhaurer",
@@ -31,7 +31,7 @@ let questions = [
        // Domanda 6 
 
   {
-      question: "„Vergessen die Herren denn ganz, dass X ein Liederdichter ist, neben dem nur noch Goethe genannt werden darf?“ – Otto von Bismarck: um 1890. Wer ist X?",
+      question: "PORTIERE - „Vergessen die Herren denn ganz, dass X ein Liederdichter ist, neben dem nur noch Goethe genannt werden darf?“ – Otto von Bismarck: um 1890. Wer ist X?",
       choice1: "X ist Hermann Hesse, der Meisterwerke wie z.B. Narziß und Goldmund geschrieben hat;",
       choice2: "X ist Gertrud von le Fort; die auch die Dichterin der Transzendenz genannt wurde;",
       choice3: "X ist Heinrich Heine, der Dichter, Schriftsteller und auch Journalisten war;",
@@ -42,7 +42,7 @@ let questions = [
          // Domanda 7 
 
   {
-      question: "In dem von Bertold Brecht verfassten Drama „Leben des Galilei“,",
+      question: "ATTACCANTI - In dem von Bertold Brecht verfassten Drama „Leben des Galilei“,",
       choice1: "wird der berühmte italienische Mathematiker von seinen Schülern und Zöglingen beschimpft;",
       choice2: "behauptet Galilei, dass sein Widerruf vor der Inquisition eine schmerzhafte Entscheidung war, die es ihm jedoch ermöglichte, seine Forschungen fortzusetzen;",
       choice3: "beschuldigt in einer der letzten Szenen Galileis Schüler Andrea Sarti den Lehrer der Feigheit, weil er die Wissenschaft verraten hätte;",
@@ -54,7 +54,7 @@ let questions = [
         // Domanda 8 
 
   {
-      question: "„Wahr ist’s. Diese Buchstaben stehen nicht drinnen. Aber wo man’s will klar verdeutschen, so gehöret es hinein.“ Diese Worte wurden gesprochen von…",
+      question: "CENTROCAMPISTI - „Wahr ist’s. Diese Buchstaben stehen nicht drinnen. Aber wo man’s will klar verdeutschen, so gehöret es hinein.“ Diese Worte wurden gesprochen von…",
       choice1: "Luther, um seine Übersetzung der Bibel zu rechtfertigen, die das Wort “allein” mit Bezug auf den Glauben einführt, welches nicht im Text steht;",
       choice2: "Luther, um seine Übersetzung der Bibel zu rechtfertigen, die das Wort „Pastor“ anstelle des Wortes “Papst” benutzt;",
       choice3: "der katholischen Kirche, die das Wort „Papst“ in ihrer Erklärung der Bibel einführt;",
@@ -142,7 +142,7 @@ choices.forEach(choice => {
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4 ) {
-           location.href= ""
+           location.href= "cambiosquadra3.html"
           
         }
 

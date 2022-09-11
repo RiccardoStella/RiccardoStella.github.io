@@ -1,6 +1,3 @@
-
-// Import delle risorse 
-
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -11,7 +8,7 @@ const progressBarFull = document.querySelector('#progressBarFull');
 
 let currentQuestion = {}
 let acceptingAnswers = true
-let score = "PORTIERE"
+let score = 0
 let questionCounter = 0
 let punteggio = 0
 let availableQuestions = []
@@ -20,57 +17,62 @@ let availableQuestions = []
 
 let questions = [
 
-     // Domanda 1 
+    // Domanda 5 
 
-    {
-        question:
-         'PORTIERE - Europa verdankt seinen Namen',
-        choice1: 'einem griechischen Mädchen, dessen Geschichte in der kleinasiatischen Mythologie erzählt wird',
-        choice2: 'einem griechischen Mädchen, das so schön war, dass es von Zeus entführt wurde',
-        choice3: 'einem kleinasiatischen Mädchen, welches einige Söhne mit einem angeblichen "Jüngling" zeugte',
-        choice4: 'einem schönen kleinasiatischen Mädchen, welches Zeus in der Form eines attraktiven Schwans bereitwillig folgte',
-        answer: 4,
-    },
+  {
+      question: "ALI - Statt der zuvor üblichen Übersetzungsmethode des „Wort für Wort“ wählte Luther die Methode des „Sinn für    Sinn“, um…",
+      choice1: "den biblischen Text besser zu “verdeutschen”;",
+      choice2: "die Leute zu überzeugen, dass die Reformation recht hatte;",
+      choice3: "zu zeigen, dass die katholische Bibelübersetzung nicht getreu übersetzt worden war;",
+      choice4: "den religiösen Wert des biblischen Textes besser zu erklären.",
+      answer: 1,
+  },
 
-    // Domanda 2 
+       // Domanda 6 
 
-    {
-        question: "ATTACCANTI - Die Werte, die zum Selbstverständnis der Europäer gehören, wurden unter anderem entwickelt:",
-        choice1: "In der Zeit des römischen Reiches, der protestantischen Reformation und der Erleuchtung;",
-        choice2: "von Völkern, die vor Christus lebten;",
-        choice3: "von Literaten (wie z.B. Mark Twain, Thomas Eliot) sowie Theologen (wie z.B. Thomas von Aquin und Luther) und Philosophen;",
-        choice4: "vor allem während der Aufklärung, die die Grundlagen zu den Ideen von Demokratie, Justiz und Toleranz legte.",
-        answer: 2,
-    },
+  {
+      question: "CENTROCAMPISTI - Zu den Autoren, die dem Sturm und Drang angehören, kann man die folgenden zählen:",
+      choice1: "Johann Wolfgang Goethe und Friedrich Schiller, der u.a. ein Schauspiel für Liebende schrieb;",
+      choice2: "Johann Georg Hamann (1730–1788), der u.a. die Sokratische Denkwürdigkeiten schrieb, und Christian Schubart;",
+      choice3: "Johann G. Herder, der u.a Lenore schrieb, und Gottfried August Bürger;",
+      choice4: "Johann G. Herder und Jakob Michael Reinhold, der u.a. Prometheus schrieb.",
+      answer: 1, 
+  },
 
-    // Domanda 3 
+     
 
-    {
-        question: "DIFENSORI - Auf dem langen Weg zu Europa",
-        choice1: "legten die Römischen Verträgen, die 1951 unterzeichnet wurden, die Grundlage für die Europäische Gemeinschaft für Kohle und Stahl (EGKS) und die heutige EU;",
-        choice2: "geht der Maastricht-Vertrag, der in 1993 in Kraft trat, der Einführung des Euro voraus und folgt der Abschaffung von Personen- und Warenkontrolle an Binnengrenzen;",
-        choice3: "bot die Verabschiedung einer europäischen Verfassung die Bedingungen für spätere Reformen, die den freien Personen- und Warenverkehr in Europa betrafen;",
-        choice4: "hat es weniger als 10 Jahren gebraucht, um die Entscheidung zu verwirklichen, die nationale Währung mit Euro- Banknoten und Münzen in 12 Staaten zu ersetzen.",
-        answer: 3,
-    },
+  
+        // Domanda 8 
 
-       // Domanda 4 
+  {
+      question: "ATTACCANTI - Wenn Erasmus sagt, dass „Ich bin ganz und gar nicht der Meinung derer, die nicht wollen, dass die göttlichen Buchstaben in eine Volkssprache übersetzt werden“, will er damit sagen, dass…",
+      choice1: "es keine schlechte Idee ist, die Bibel ins Deutsche zu übersetzen;",
+      choice2: "es nicht zwingend erforderlich ist, die Bibel in eine Volkssprache zu übersetzen;",
+      choice3: "es möglich ist, die Bibel nicht nur in Latein zu übersetzen;",
+      choice4: "es möglich, aber nicht ratsam ist, die Bibel ins Deutsche zu übersetzen.",
+      answer: 2,
+  },
 
-    {
-        question: "CENTROCAMPISTI - Die Völkerwanderung ist ein historischer Prozess,",
-        choice1: "der nach dem Sieg von Arminius gegen Varus in der Varusschlacht begann;",
-        choice2: "der nach einigen Jahrzehnten durch den Tod Kaiser Hadrians (138 n. Chr.) ausgelòst wurde.",
-        choice3: "der den germanischen Völksstämmen ermöglichte, dauerhaft den Hafen von Aquileia in der Adria zu besetzen;",
-        choice4: "dessen Hauptereignis die Besetzung des Hafens von Aquileia an der Adria war.",
-        answer: 3,
-    }
+        // Domanda 9 
+
+  {
+    question: "PORTIERE - Der gesuchte Autor ist entweder Rainer M. Rilke, oder Thomas Mann, oder Franz Kafka oder Bertold Brecht. Man weiß, dass der gesuchte Autor 1955 gestorben ist, dass er ein Dramaturg, ein Regisseur war und ein engagierter Dichter war. Darüber hinaus, weiß man dass:",
+    choice1: "Rilke sehr berühmte Dramatische Werke geschrieben hatte, darunter „Waisenkinder“, und dann auch nur Dichtungen und Prosa; Wer ist dieser Autor?",
+    choice2: "Mann gerne „vornehm über den Dingen“ stehen wollte;Mann gerne „vornehm über den Dingen“ stehen wollte;",
+    choice3: "Brecht im Jahr 1923 sein erste Regiearbeit, Leben Eduards des Zweiten von England, fertigstellte;",
+    choice4: "Kafka sich in seiner Jugendzeit dem Sozialismus zuwandte, aber dass in seiner Reifezeit seine Werke von seiner persönlichen Erfahrung geprägt waren.",
+    answer: 1,
+  }
+
+
+
 ]
 
 //  Funzioni di Gioco
 
 //  Variabili della Progess Bar 
 
-const SCORE_POINTS = 0
+const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
 
 // Funzione di Gioco Principale 
@@ -127,7 +129,7 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if(classToApply === 'correct') {
-            score="DIFENSORI"
+            incrementScore(SCORE_POINTS)
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
@@ -136,13 +138,13 @@ choices.forEach(choice => {
 
         if(currentQuestion.answer != selectedAnswer) {
             alert("Peccato! La risposta CORRETTA è la numero " + currentQuestion.answer + "!")
-            location.href="schermataerrore.html"
+            
         
         }
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
-        if( questionCounter == 4) {
-           location.href= "schermataerrore.html"
+        if( questionCounter == 4 ) {
+           location.href= "dfat2.html"
           
         }
 

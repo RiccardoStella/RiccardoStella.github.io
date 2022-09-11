@@ -12,22 +12,36 @@
     font-family: 'Nova Square', cursive;
 }
 
-h2 {
-    font-size: 5.4rem;
-    color: #fff;
-    margin-bottom: 5rem;
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+    margin-left: 40%;
+    margin-top: 5%;
+    /* Center child horizontally*/
+    display: flex;
+    justify-content: center;
+ }
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+
 }
 
-.titolo {
+.nomesquadra {
 display: flex;
-width: 600px;
-height: 600px;
-position: absolute;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
+justify-content: center;
+width: 100px;
+height: 100px;
+margin-top: 5%;
+margin-left: 50%;
+}
 
-margin: auto;
-
+h2 {
+    color: aqua;
+    font-size: 5rem;
 }

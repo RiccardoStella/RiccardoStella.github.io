@@ -20,7 +20,7 @@ let questions = [
     // Domanda 5 
 
   {
-      question: "Finden Sie die richtige Antwort",
+      question: "DIFENSORI - Finden Sie die richtige Antwort",
       choice1: "Am Ende seines Lebens Sokrates wusste, dass er die Wahrheit nicht mehr hätte erreichen können;",
       choice2: "am Ende seines Lebens wusste Sokrates, dass er die Wahrheit nicht mehr hätte erreichen können;",
       choice3: "Sokrates wusste am Ende seines Lebens, dass er die Wahrheit nicht mehr erreichen können hatte;",
@@ -31,7 +31,7 @@ let questions = [
        // Domanda 6 
 
   {
-      question: "Finden Sie die richtige Antwort",
+      question: "PORTIERE - Finden Sie die richtige Antwort",
       choice1: "Plato hat in seinen „Dialogen“ gesagt, dass Sokrates seinen Anhängern helfen habe, über den  Sinn des Lebens nachzudenken; ",
       choice2: "in seinen „Dialogen“ hat Plato gesagt; dass Sokrates seinen Anhängern über den Sinn des Lebens hat nachzudenken helfen;",
       choice3: "in seinen „Dialogen“ hat Plato gesagt, dass Sokrates seinen Anhängern geholfen hat, über den Sinn des Lebens nachzudenken;",
@@ -42,7 +42,7 @@ let questions = [
          // Domanda 7 
 
   {
-      question: "Finden Sie die richtige Antwort",
+      question: "CENTROCAMPISTI - Finden Sie die richtige Antwort",
       choice1: "Ein wichtiges schweizerisches UNESCO-Weltkulturerbe ist das Benediktinerkloster Müstair, das an der Grenze von Südtirol liegt und von Kaiser Karl Habsburg gebaut wurde;",
       choice2: "ein wichtiges schweizerisches UNESCO-Weltkulturerbe ist das Benediktinerkloster Müstair, das im Spätmittelalter gebaut wurde und den größten religiösen Freskenzyklus enthält;",
       choice3: "ein anderes wichtiges schweizerisches UNESCO-Weltkulturerbe ist die Jungfrau-Aletsch-Bietschhorn, dem die berühmtesten Berge der Schweiz, darunter das Zinalrothorn und das Weisshorn, angehören;",
@@ -54,7 +54,7 @@ let questions = [
         // Domanda 8 
 
   {
-      question: "Finden Sie die richtige Antwort",
+      question: "ATTACCANTI - Finden Sie die richtige Antwort",
       choice1: "Wilhelm Tell ist der Nationalheld der Schweiz, und symbolisiert den Willen, sich jeder fremden Unterdrückung zu widersetzen;",
       choice2: "Wilhelm Tell ist der Nationalheld der Schweiz, und symbolisiert den Willen, sich jeder fremden Unterdrückung zu widersetzen;",
       choice3: "Wilhelm Tell ist der Nationalheld der Schweiz, und symbolisiert u.a. eine Nation, die eine vernünftige Herrschaft anerkennt;",
@@ -139,13 +139,13 @@ choices.forEach(choice => {
 
         if(currentQuestion.answer != selectedAnswer) {
             alert("Peccato! La risposta CORRETTA è la numero " + currentQuestion.answer + "!")
-            location.href="fine.html"
+            location.href="schermataerrore6.html"
         
         }
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4 ) {
-           location.href= "fine.html"
+           location.href= "cambiosquadra6.html"
           
         }
 

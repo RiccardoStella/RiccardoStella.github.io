@@ -14,11 +14,13 @@
 
 h1 {
     font-size: 5.4rem;
-    color: #fff;
+    color: turquoise;
     margin-bottom: 5rem;
 }
 
-
+#score {
+    color: yellow;
+}
 
 h2 {
     font-size: 4.2rem;

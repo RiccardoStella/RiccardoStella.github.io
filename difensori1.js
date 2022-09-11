@@ -147,13 +147,13 @@ choices.forEach(choice => {
 
         if(currentQuestion.answer != selectedAnswer) {
             alert("Peccato! La risposta CORRETTA è la numero " + currentQuestion.answer + "!")
-            location.href="schermataerrore2.html"
+           
         
         }
 
     // Se TUTTE le risposte sono GIUSTE, il punteggio della squadra aumenta di un punto 
         if( questionCounter == 4 ) {
-           location.href= "cambiosquadra1.html"
+           location.href= "dfat1.html" 
           
         }
 
@@ -179,4 +179,3 @@ incrementScore = num => {
 // Avvio del gioco
 
 startGame()
-
